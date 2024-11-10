@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #86a19e;
+        }
+        
+        div.city{
+            border: 2px solid black;
+            margin: 15px;
+            width: 220px;
+            height: 600px;
+            float: left;
+            background-color: #6c648b;
+            color: #2d2743;
+        }
+        div.city:hover{
+            border: 2px solid gray;
+            background-color: #4d4765;
+            color: rgb(202, 187, 220);
+        }
+        div.city img{
+            width:100%;
+            height: 50%;
+        }
+        div.desc{
+            padding:10px;
+            text-align: left;
+            font-size: x-large;
+        }
+        #img1:hover{
+            content: url(./Images/Mumbai.jpg);
+        }
+        #img2:hover{
+            content: url(./Images/Delhi.jpg);
+        }
+        #img3:hover{
+            content: url(./Images/Kolkata.jpg);
+        }
+        #img4:hover{
+            content: url(./Images/Chennai.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="city">
+        <a href="https://en.wikipedia.org/wiki/Mumbai">
+           <img src="./Images/Gateway_of_India.jpg" alt="Mumbai" id="img1">
+        </a>
+        <div class="desc">
+            Mumbai is the financial capital of India. Gate way of India is The Landmark of Mumbai
+        </div>
+    </div>
+    <div class="city">
+        <a href="https://en.wikipedia.org/wiki/Delhi">
+            <img src="./Images/Red-Fort-Old-Delhi-India.jpg" alt="Delhi" id="img2">
+        </a>
+        <div class="desc">
+            Delhi is the political capital of India. Redfort is The Landmark of Delhi
+        </div>
+    </div>
+    <div class="city">
+        <a href="https://en.wikipedia.org/wiki/Kolkata">
+            <img src="./Images/victoriam.jpg" alt="Kolkata" id="img3">
+        </a>
+        <div class="desc">
+            Kolkata is the entertainment capital of India. Viactoria Memmorial is The Landmark of Kolkata
+        </div>
+    </div>
+    <div class="city">
+        <a href="https://en.wikipedia.org/wiki/Chennai">
+            <img src="./Images/victoriaH.jpg" alt="Chennai" id="img4">
+        </a>
+        <div class="desc">
+            Chennai is the cultural capital of India. Viactoria Hall is The Landmark of Mumbai
+        </div>
+    </div>
+</body>
+</html>
